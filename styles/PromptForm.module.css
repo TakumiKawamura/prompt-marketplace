@@ -1,0 +1,27 @@
+.form {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+  
+.form label {
+    display: block; /* 各ラベルを新しい行で表示 */
+    margin-top: 10px 10px; /* 上部に余白を追加 */
+}
+  
+.form button {
+    display: inline-block; /* ボタンをインラインブロックとして表示 */
+    margin-top: 10px 10px; /* 上部に余白を追加 */
+    padding: 5px 10px; /* パディングを追加 */
+    border: none; /* デフォルトのボーダーを削除 */
+    background-color: #0070f3; /* バックグラウンドカラーを設定 */
+    color: white; /* テキストカラーを白に設定 */
+    border-radius: 10px; /* 角を丸くする */
+    cursor: pointer; /* ホバー時にカーソルをポインターにする */
+}
+  
+.form button:hover {
+    background-color: #0051a2; /* ホバー時のバックグラウンドカラーを設定 */
+}
+  

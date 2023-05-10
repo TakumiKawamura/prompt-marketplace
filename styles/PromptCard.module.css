@@ -1,0 +1,7 @@
+.card {
+    border: 1px solid #333; /* 枠線を追加 */
+    padding: 10px; /* 内側の間隔（パディング）を追加 */
+    margin: 10px 10px; /* 上下左右に間隔（マージン）を追加 */
+    border-radius: 10px; /* 枠線の角を丸くする */
+  }
+  

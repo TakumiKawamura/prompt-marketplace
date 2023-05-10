@@ -1,13 +1,19 @@
+/* tailwindをインクルード */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/* すべての要素が継承する最上位の要素 */
 :root {
+  /* 文字の色 */
   --foreground-rgb: 0, 0, 0;
+  /* 背景色(グラデーションの両端の2色) */
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
+/* ダークモード時の挙動を上書き */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -17,6 +23,7 @@
 }
 
 body {
+  /* 文字の色を指定 */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

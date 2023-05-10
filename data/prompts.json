@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "genre": "ChatGPT",
+        "title": "ビジネスアイデア",
+        "description": "ビジネスアイデアの案出し",
+        "content": "あなたは起業家です。元手10000円から始められるビジネスを10個考えてください。"
+    },
+    {
+        "id": 2,
+        "genre": "DALL-E",
+        "title": "a cool boy",
+        "description": "a prompt to make a cool boy",
+        "content": "cool boy confidence cool-style"
+    }
+]
+  
